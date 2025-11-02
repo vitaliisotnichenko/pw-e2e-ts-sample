@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "strict": false,
+    "outDir": "/build",
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noFallthroughCasesInSwitch": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./",
+    "paths": {
+      "@fixtures/*": ["./app/fixtures/*"],
+      "@page/*": ["./app/ui/pages/*"],
+      "@pages/*": ["./app/ui/pages/*"],
+      "@components/*": ["./app/ui/components/*"],
+      "@modals/*": ["./app/ui/modals/*"],
+      "@controllers/*": ["./app/api/controllers/*"],
+      "@api/*": ["./app/api/*"],
+      "@utils/*": ["./utils/*"],
+      "@tests/*": ["./tests/*"],
+      "@helpers/*": ["./tests/*"]
+    }
+  }
+}
